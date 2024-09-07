@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -23,13 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k287=lxf*p&3^4swov^$o4_2$9rya-^nu@3p5i98ymdh@zu^r-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-ALLOWED_HOSTS = ['*']  # Позволяет доступ с любого хоста, измените при необходимости
+DEBUG = bool(int(os.environ.get("DEBUG", 0)))
 
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '172.16.5.201']
 
 # Application definition
-
 INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'django.contrib.admin',
@@ -48,6 +46,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -76,19 +75,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'TradeEasy.wsgi.application'
 
-
-
-
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-# }
-
-
-
-
+# Database configuration
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -100,12 +87,7 @@ DATABASES = {
     }
 }
 
-
-
-
 # Password validation
-# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -121,66 +103,52 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
-# Internationalization
-# https://docs.djangoproject.com/en/4.2/topics/i18n/
-
+# Internationalization settings
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_TZ = True
 
+LANGUAGES = [
+    ('ru', _('Russian')),
+    ('en', _('English')),
+]
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
 
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = [BASE_DIR / "static"]
-
-
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = [BASE_DIR / "static"]  # Здесь хранятся исходные статические файлы
-# STATIC_ROOT = BASE_DIR / 'staticfiles/'  # Сюда Django соберет все статические файлы при collectstatic
-
-
-# STATIC_URL = 'static/'
-# STATIC_ROOT = BASE_DIR / 'static/'
+# Static and media files
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+MEDIA_URL = '/media/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+if DEBUG:
+    STATICFILES_DIRS = [BASE_DIR / 'static']
+    MEDIA_ROOT = BASE_DIR / 'media/'
+else:
+    STATIC_ROOT = BASE_DIR / 'static/'
+    MEDIA_ROOT = BASE_DIR / 'media/'
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-
-
+# Cart session ID
 CART_SESSION_ID = 'cart'
 
+# Authentication settings
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
+# Email configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'timur3373586@gmail.com'
 EMAIL_HOST_PASSWORD = 'ltkm hbug irov psmr'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-
-# Настроечные параметры Stripe
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51PrkcW027jH38nka4I9cff3xHCLi6zOmGRbUbOwgcGghyJLgme7Gvn5JLcgBS8TegYVHm0VlEMFUxolCnJ7rTK3100IJzdiOcP' # Публикуемый ключ
-STRIPE_SECRET_KEY = 'sk_test_51PrkcW027jH38nkaHNXkR1I2fyezuGWWAl4ImZim4GsiuQmlsSKOaPCls1hQaOE7wpOOMQCIUA3rZ5IOZqsV7HIC00M5KROodj' # Секретный ключ
+# Stripe configuration
+STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
 STRIPE_API_VERSION = '2022-08-01'
+STRIPE_WEBHOOK_SECRET = os.environ.get('STRIPE_WEBHOOK_SECRET')
 
-STRIPE_WEBHOOK_SECRET = 'whsec_3e1330fb3a52e345d27cff5bcaccb4b3a07ba87ceca2b3b045e15a4a5908444d'
-
-
+# CSRF trusted origins

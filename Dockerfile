@@ -19,14 +19,14 @@ COPY . /app/
 # Copy the Stripe CLI binary into /usr/local/bin
 COPY stripe /usr/local/bin/
 
-# Make sure the Stripe CLI binary is executable
-RUN chmod +x /usr/local/bin/stripe
+# # Make sure the Stripe CLI binary is executable
+# RUN chmod +x /usr/local/bin/stripe
 
-# Prepare the application
-RUN python manage.py makemigrations --noinput
-RUN python manage.py migrate --noinput
-RUN python manage.py collectstatic --noinput
-RUN python manage.py loaddata mysite_data.json
+# # Prepare the application
+# RUN python manage.py makemigrations --noinput
+# RUN python manage.py migrate --noinput
+# RUN python manage.py collectstatic --noinput
+# RUN python manage.py loaddata mysite_data.json
 
 # Start Stripe CLI for listening to webhooks in the background
-CMD stripe listen --forward-to http://web:8000/payment/webhook/ &
+# CMD stripe listen --forward-to http://web:8000/payment/webhook/ &
