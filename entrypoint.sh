@@ -22,7 +22,7 @@ python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 
 # Загрузка данных из JSON файла
-python manage.py loaddata my_data.json
+python manage.py loaddata mysite_data.json
 
 # Запуск Stripe CLI для прослушивания вебхуков в фоновом режиме
 stripe listen --forward-to localhost:8000/payment/webhook/ &

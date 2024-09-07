@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k287=lxf*p&3^4swov^$o4_2$9rya-^nu@3p5i98ymdh@zu^r-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+ALLOWED_HOSTS = ['*']  # Позволяет доступ с любого хоста, измените при необходимости
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -146,8 +146,10 @@ USE_TZ = True
 # STATIC_ROOT = BASE_DIR / 'staticfiles/'  # Сюда Django соберет все статические файлы при collectstatic
 
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'static/'
+# STATIC_URL = 'static/'
+# STATIC_ROOT = BASE_DIR / 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

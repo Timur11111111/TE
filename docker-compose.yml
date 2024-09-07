@@ -1,43 +1,11 @@
-# services:
-#   web:
-#     build: .
-#     container_name: TradeEasy-web
-#     restart: always
-#     command: bash entrypoint.sh
-#     volumes:
-#       - .:/app
-#       - ./static:/app/static
-#       - ./media:/app/media
-#     ports:
-#       - 8000:8000
-#     depends_on:
-#       - db
-#     environment:
-#       - DATABASE_HOST=db
-#       - DATABASE_NAME=database
-#       - DATABASE_USER=root
-#       - DATABASE_PASSWORD=21232123
-
-#   db:
-#     image: postgres
-#     container_name: TradeEasy-db
-#     restart: always
-#     environment:
-#       POSTGRES_DB: database
-#       POSTGRES_USER: root
-#       POSTGRES_PASSWORD: 21232123
-#     volumes:
-#       - postgres_data:/var/lib/postgresql/data/
-
-# volumes:
-#   postgres_data:
+version: '3.8'
 
 services:
   web:
     build: .
     container_name: TradeEasy-web
     restart: always
-    command: bash entrypoint.sh
+    command: gunicorn TradeEasy.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - .:/app
       - ./static:/app/static
@@ -91,15 +59,25 @@ services:
       - DATABASE_PASSWORD=21232123
       - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672//
 
-  stripe:
-    build: .
-    container_name: TradeEasy-stripe
-    restart: always
-    command: stripe listen --forward-to http://web:8000/payment/webhook/
+  # stripe:
+  #   build: .
+  #   container_name: TradeEasy-stripe
+  #   restart: always
+  #   command: stripe listen --forward-to http://web:8000/payment/webhook/
+  #   depends_on:
+  #     - web
+  #   volumes:
+  #     - .:/app
+
+  nginx:
+    image: nginx:latest
+    container_name: TradeEasy-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
       - web
-    volumes:
-      - .:/app
 
 volumes:
   postgres_data:
