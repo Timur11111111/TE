@@ -32,7 +32,6 @@
 # volumes:
 #   postgres_data:
 
-
 services:
   web:
     build: .
@@ -44,7 +43,7 @@ services:
       - ./static:/app/static
       - ./media:/app/media
     ports:
-      - 8000:8000
+      - 8081:8000  # Изменён внешний порт для веб-сервера
     depends_on:
       - db
       - rabbitmq
@@ -72,8 +71,8 @@ services:
     container_name: Jinjer-rabbitmq
     restart: always
     ports:
-      - 5672:5672
-      - 15672:15672
+      - 5673:5672  # Изменён внешний порт для RabbitMQ
+      - 15673:15672  # Изменён порт для RabbitMQ management UI
 
   celery:
     build: .
