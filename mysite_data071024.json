@@ -1,0 +1,1610 @@
+[
+{
+  "model": "account.profile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "date_of_birth": null,
+    "photo": ""
+  }
+},
+{
+  "model": "account.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "date_of_birth": "2024-08-22",
+    "photo": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-18T10:46:08.009Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "2",
+    "object_repr": "TimurUser",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-18T18:33:15.155Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "всякая малочь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-18T18:33:19.232Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "пипчик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-18T18:33:56.363Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "пипчик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-19T16:33:30.212Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "пипчик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-19T16:37:28.474Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "смертельный чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-19T16:38:49.205Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "пипчик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-19T17:01:03.847Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "бакалея",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-19T17:01:40.554Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "гуталин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-19T17:06:15.451Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "гуталин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-19T17:34:44.025Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "trunk",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-08-19T17:35:13.189Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "suo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-08-19T17:35:25.139Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "rrr",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-08-19T18:43:31.233Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "всякая мелочь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-19T18:47:57.845Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "rrr",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-19T18:47:57.851Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "suo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-08-19T18:47:57.855Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "trunk",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-21T11:26:32.006Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Order 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"order item\", \"object\": \"1\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-08-22T11:05:32.173Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "Profile of TimurUser",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-05T12:59:14.186Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "гуталин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-05T12:59:29.718Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "пипчик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-05T12:59:45.057Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "смертельный чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-10-07T12:53:04.611Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "flavored",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-10-07T12:53:38.324Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "черный чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-10-07T12:53:46.558Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "черный чай",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-10-07T13:34:06.027Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "черный чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-10-07T13:34:25.340Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "зеленый чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-07T13:35:42.359Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "всякая мелочь",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-07T13:36:10.433Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "улун",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-07T15:30:11.031Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Ароматизированный чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-07T16:36:53.960Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Байкальская ночь (черный ароматизированный чай) - Время чая - Time4tea.ru Байкальская ночь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-10-07T16:42:53.095Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Чай черный \"Сокровища Венеции\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-10-07T16:46:11.980Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Фруктовый чай с каркаде",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-10-07T17:25:42.415Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "высокогорный зеленый чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-10-07T17:29:00.610Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Индийский крупнолистовой зеленый чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-10-07T17:29:23.940Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Индийский крупнолистовой зеленый чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-10-07T17:31:45.020Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Чай улун Малина с травами",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-10-07T17:33:30.588Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "тайваньский улун",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-10-07T17:33:52.026Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "тайваньский улун",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 1,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 1,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 1,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 1,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 2,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 2,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 2,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 2,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 4,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 4,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 4,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 4,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 5,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 5,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 5,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 5,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 6,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 6,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 6,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 6,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 7,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 7,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 7,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 7,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 8,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 8,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 8,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 8,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 9,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 9,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 9,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 9,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 10,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 10,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 10,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 10,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 11,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 11,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 11,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 11,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$y2tziBLNBuPPBNewjhFC21$r2/87P3YLlx7Cvr4TYkr2bwgKnSTRzlDs/hAuTUwFtI=",
+    "last_login": "2024-10-07T12:50:38.019Z",
+    "is_superuser": true,
+    "username": "Timur",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-18T10:45:15.182Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$pPU3PmF5kCGw7jiXcsS15f$Ke8h8t0Z0yHc+Q+t0mh7qsYhqs1Vpc45wczeotS+nbc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "TimurUser",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-08-18T10:46:07.137Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$1lpV3RI9oXjCHjwbK9vsax$FJX4PMS3l5YQDu5CthUkoQwqXgbmRpc9WDGXTe8XTeo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Timur3",
+    "first_name": "вс",
+    "last_name": "",
+    "email": "yt@vrr.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-08-22T11:00:26.960Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "account",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "shop",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5io2galj4pnq9hfa3o2rgoga08hcayph",
+  "fields": {
+    "session_data": ".eJxVjb0OgzAQg9_lZhQl5IfA2L3PgC65pNBWoQ1hqBDvXpAY2sWD_dleocelDP0yh9yPBB0IqH49h_4R0hHQHdNtYn5KJY-OHQg705ldJwrPy8n-DQw4D3vbBR4VUUM2ILVOxuiC4aLWwkrreRulxMZrw7Voa1KiDl4aa1BHUlJFs496zAW6FepD3gumMpYPdKKCVx592E-MMYxz2LbtCwxFRVk:1sgpp5:8Tqq0Or6M6UHNJjPeybpZfMBHTqDIp-u76uOA8Hyveg",
+    "expire_date": "2024-09-04T18:12:43.496Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "axbs2i0r64byb4ob2tv4nedfzmzf9cce",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1siHBY:PRGE1DIMMlPJ55MnAH8z7EEwzWKjLYhEGNA1ytdGekA",
+    "expire_date": "2024-09-08T17:37:52.114Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gu3iqjuu0ekhjdrpofetw26leyhhwabi",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe-ydWRhW7azKdPnDGh_DiQRSHwqxN0jJBraNzNvA6Fpgce236Cldenadbap7RUe4OGyMcnXhgPoh4b36GQclqlndyjupLN7jWq_5-leDjqau6M25DuVIAErWxK0WnMKvvGolmPN6mMQiUzalEqcMhZDjZTQc4gF9j9UtTvq:1sxrdc:LRu3_EMMSk87zvQtbVJIlLE6xBh8cMxj9IgoQsrBFQE",
+    "expire_date": "2024-10-21T17:35:16.844Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mtm871ozynohoav9xsuq1w8re412ske3",
+  "fields": {
+    "session_data": ".eJxVjsEOgyAQRP-FsyECAVyPvfcbzLK7VNtGEtST8d9bEw_tdd7My-xqwG0dh22ROkysemVU85slpJfMJ-Anzo-iqcxrnZI-K_qii74Xlvft6v4JRlzGcy2QOoyWLOQknkByDt6a1gBLcDmwcZbIJeQ2Zkw-QBRghx5Msi5-paXyddJ0jSKsq-r34_gAtl9ARQ:1skgcA:cP0egqIsWcXOyodLoaUzPTzfDcOa-Og5UtZ0KaQLGGw",
+    "expire_date": "2024-09-15T09:11:18.075Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qfiqu31jh30euamhfryayciz8i2fhu5t",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1sgniq:4FkiVYPVffcJtSoWwgtr4BXaQIbT8CFB1Jz3F9ASHX4",
+    "expire_date": "2024-09-04T15:58:08.446Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qk3p2ur84gn3012biyxj97jr8183ca47",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQBe-ydWRhW7azKdPnDGh_DiQRSHwqxN0jJBraNzNvA6Fpgce236Cldenadbap7RUe4OGyMcnXhgPoh4b36GQclqlndyjupLN7jWq_5-leDjqau6M25DuVIAErWxK0WnMKvvGolmPN6mMQiUzalEqcMhZDjZTQc4gF9j9UtTvq:1smC5X:2gO10Dbrfma_zgWBze2UBo8tDmnsuTNpCGoX2fATmjo",
+    "expire_date": "2024-09-19T12:59:51.674Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rdur29lzd6642sfbvecghso4rs0bry4p",
+  "fields": {
+    "session_data": ".eJxVjsEOgyAQRP-FsyECAboee-83mGV3qbaNJKgn479bEw_tdd7My2yqx3UZ-nWW2o-sOmVU85slpLdMJ-AXTs-iqUxLHZM-K_qis34Uls_96v4JBpyHcy2QbhgtWchJPIHkHLw1rQGW4HJg4yyRS8htzJh8gCjADj2YZF38Skvl66QJjSKsi-q2fT8AtkdAQw:1sjOgr:z2rmmtRZGjZx_Ia-8qjN7tPz8pflWiXLODrkzLv6JLU",
+    "expire_date": "2024-09-11T19:50:49.625Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sdvq91gkf592bttfqt3wvdwjodrr0z74",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOnsicXVhbnRpdHkiOjEsInByaWNlIjoiNjY2LjAwIn19fQ:1shlEt:4elGo6of19gx-_zHrvBiYMO5XCObJjk4ueqLv5-0jdQ",
+    "expire_date": "2024-09-07T07:31:11.815Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uocl2ewqyuo117e3w75k3bbotzr8r5wy",
+  "fields": {
+    "session_data": ".eJxVjsEOgyAQRP-FsyECAboee-83mGV3qbaNJKgn479bEw_tdd7My2yqx3UZ-nWW2o-sOmVU85slpLdMJ-AXTs-iqUxLHZM-K_qis34Uls_96v4JBpyHcy2QbhgtWchJPIHkHLw1rQGW4HJg4yyRS8htzJh8gCjADj2YZF38Skvl66RtG0VYF9Vt-34AtgxAPg:1slnBS:VpSR8mUHAZMW0Vkrf58dguU-71wWa83bkR7emwT73u8",
+    "expire_date": "2024-09-18T10:24:18.614Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vh7btpxwejpnawao81sdti0pbpuq3sjm",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1shlHO:eDMrPE0bpN2us89BYRUKtCB4VgWm22vAdqdkjvl0AiM",
+    "expire_date": "2024-09-07T07:33:46.261Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zf665kv0bqfrl1csfcy9528io57p001k",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1skfPk:ZYNrTaIiYDn_h335-iaNYwpxkv1pAcmXCz7nJgSIswg",
+    "expire_date": "2024-09-15T07:54:24.245Z"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "черный чай",
+    "slug": "chernyj-chaj"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "name": "зеленый чай",
+    "slug": "zelenyj-chaj"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 5,
+  "fields": {
+    "name": "улун",
+    "slug": "ulun"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 6,
+  "fields": {
+    "name": "Ароматизированный чай",
+    "slug": "aromatizirovannyj-chaj"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 6,
+    "name": "Байкальская ночь (черный ароматизированный чай) - Время чая - Time4tea.ru Байкальская ночь",
+    "slug": "bajkalskaya-noch-chernyj-aromatizirovannyj-chaj-vremya-chaya-time4tearu-bajkalskaya-noch",
+    "image": "products/2024/10/07/9007_1401Rw.jpg",
+    "description": "Состав: индийский черный чай, персик, клубника, шиповник, яблоко, лепестки розы, лепестки календулы, цветки мальвы, натуральные ароматические масла.",
+    "price": "15.00",
+    "available": true,
+    "created": "2024-10-07T16:36:53.956Z",
+    "updated": "2024-10-07T16:36:53.956Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 6,
+    "name": "Чай черный \"Сокровища Венеции\"",
+    "slug": "chaj-chernyj-sokrovisha-venecii",
+    "image": "products/2024/10/07/6403063113.webp",
+    "description": "Чай черный \"Сокровища Венеции\" – это изысканная смесь, вобравшая в себя богатство вкусов и ароматов. В каждой чашке раскрывается насыщенный и глубокий вкус высококачественного черного чая, который сопровождается тонкими пряными нотками и легкой сладостью. Его густой и бархатистый аромат напоминает атмосферу древней Венеции с ее роскошью и магией. Упаковка весом 1000 г идеально подойдет как для повседневного наслаждения, так и для особых случаев, чтобы подарить себе и близким моменты истинного чаепития.",
+    "price": "13.00",
+    "available": true,
+    "created": "2024-10-07T16:42:53.093Z",
+    "updated": "2024-10-07T16:42:53.093Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 6,
+    "name": "Фруктовый чай с каркаде",
+    "slug": "fruktovyj-chaj-s-karkade",
+    "image": "products/2024/10/07/7102809099.webp",
+    "description": "Фруктовый чай с каркаде — это яркий напиток, который сочетает в себе освежающий вкус гибискуса и сочные нотки фруктов. Каркаде придает чаю приятную кислинку и насыщенный рубиновый цвет, а фруктовые акценты добавляют легкую сладость и аромат. Этот чай прекрасно утоляет жажду и дарит бодрость, его можно пить как горячим, так и холодным. Идеальный выбор для тех, кто ценит природную свежесть и насыщенные вкусы в каждом глотке.",
+    "price": "9.00",
+    "available": true,
+    "created": "2024-10-07T16:46:11.977Z",
+    "updated": "2024-10-07T16:46:11.977Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 4,
+    "name": "высокогорный зеленый чай",
+    "slug": "vysokogornyj-zelenyj-chaj",
+    "image": "products/2024/10/07/c3a2f7fbeeac529a1f00b527ce9dbf28.jpeg",
+    "description": "Высокогорный зеленый чай — это изысканный напиток, выращенный на высоте, где чистый воздух и уникальный климат способствуют созданию исключительного вкуса. Листья чая собираются вручную на горных плантациях, что сохраняет их естественную свежесть и пользу. Напиток обладает нежным травянистым ароматом, лёгкими цветочными нотками и мягким послевкусием. Богат антиоксидантами, он не только утоляет жажду, но и дарит бодрость, улучшая самочувствие и настроение. Идеален для любителей чая, ценящих природную гармонию и благородство вкусов.",
+    "price": "20.00",
+    "available": true,
+    "created": "2024-10-07T17:25:42.413Z",
+    "updated": "2024-10-07T17:25:42.413Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "category": 4,
+    "name": "Индийский крупнолистовой зеленый чай",
+    "slug": "indijskij-krupnolistovoj-zelenyj-chaj",
+    "image": "products/2024/10/07/1605466856_listya-zelenogo-chaya.jpg",
+    "description": "Индийский крупнолистовой зеленый чай — это изысканный сорт чая, который сочетает в себе насыщенность вкуса и свежесть. Листья собираются вручную на лучших плантациях Индии и проходят минимальную обработку, сохраняя свои природные свойства. Напиток отличается мягким травяным ароматом, легкой горчинкой и освежающим послевкусием. Этот чай — идеальный выбор для тех, кто ценит естественность и богатый вкусовой букет, а также заботится о своем здоровье благодаря высоким антиоксидантным свойствам зеленого чая.",
+    "price": "16.00",
+    "available": true,
+    "created": "2024-10-07T17:29:00.608Z",
+    "updated": "2024-10-07T17:29:23.937Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "category": 5,
+    "name": "Чай улун Малина с травами",
+    "slug": "chaj-ulun-malina-s-travami",
+    "image": "products/2024/10/07/BA-706-00.jpg.jpg",
+    "description": "Ароматный букет, составленный из кусочков спелой малины с добавлением лепестков сафлора, на основе китайского улуна.\r\n\r\nМалиновые кусочки ягод на фоне зеленого чайного листа смотрятся свежо и ярко.\r\n\r\nМягкий тонкий вкус китайского чая в сочетании с ягодной сладостью малины окутан ароматом малины с травами. Выпивая чашечку свежезаваренного напитка, можно открыть в нем еще множество летних оттенков луговых трав.\r\n\r\nНастой имеет оранжево-желтый цвет.",
+    "price": "22.00",
+    "available": true,
+    "created": "2024-10-07T17:31:45.017Z",
+    "updated": "2024-10-07T17:31:45.017Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 10,
+  "fields": {
+    "category": 5,
+    "name": "тайваньский улун",
+    "slug": "noslug",
+    "image": "products/2024/10/07/a997f330bd018b0e3d407ccfbe656098.webp",
+    "description": "Тайваньский улун — это уникальный сорт чая, известный своим мягким, но глубоким вкусом и сложными ароматами. Выращенный в горных районах Тайваня, этот улун отличается бережной ферментацией, что придает напитку утонченный баланс между свежестью зеленого чая и насыщенностью черного. Во вкусе преобладают цветочные, фруктовые и сливочные ноты с легким ореховым послевкусием. Каждый глоток этого чая словно переносит в горные туманы, где медленно раскрываются его многослойные ароматы и уникальный характер. Тайваньский улун идеально подходит для медитативного чаепития и ценится за свои расслабляющие и освежающие свойства.",
+    "price": "18.00",
+    "available": true,
+    "created": "2024-10-07T17:33:30.586Z",
+    "updated": "2024-10-07T17:33:52.022Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "first_name": "петря",
+    "last_name": "фуф",
+    "email": "new@goal.com",
+    "address": "мирзо улугбек 500",
+    "postal_code": "665445",
+    "city": "Ташкент",
+    "created": "2024-08-21T11:26:32.003Z",
+    "updated": "2024-08-21T11:26:32.003Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "first_name": "пее",
+    "last_name": "ллл",
+    "email": "qwed@sdf.tr",
+    "address": "bomj street",
+    "postal_code": "1234523",
+    "city": "yt",
+    "created": "2024-08-21T11:54:34.079Z",
+    "updated": "2024-08-21T11:54:34.079Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "first_name": "пее",
+    "last_name": "ллл",
+    "email": "qwed@sdf.tr",
+    "address": "bomj street",
+    "postal_code": "1234523",
+    "city": "yt",
+    "created": "2024-08-21T11:57:24.540Z",
+    "updated": "2024-08-21T11:57:24.540Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "first_name": "ytr",
+    "last_name": "hgfd",
+    "email": "yt@vrr.com",
+    "address": "rtyu",
+    "postal_code": "6222",
+    "city": "tr",
+    "created": "2024-08-21T11:58:38.064Z",
+    "updated": "2024-08-21T11:58:38.064Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "first_name": "в",
+    "last_name": "вв",
+    "email": "timur3373586@gmail.com",
+    "address": "123",
+    "postal_code": "1234",
+    "city": "2345",
+    "created": "2024-08-24T05:26:39.196Z",
+    "updated": "2024-08-24T05:26:39.196Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "first_name": "sdf",
+    "last_name": "xc",
+    "email": "timur3373586@gmail.com",
+    "address": "f",
+    "postal_code": "f",
+    "city": "f",
+    "created": "2024-08-24T06:46:44.924Z",
+    "updated": "2024-08-24T06:46:44.924Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "first_name": "бобур",
+    "last_name": "пк",
+    "email": "timur3373586@gmail.com",
+    "address": "bomj street",
+    "postal_code": "1234523",
+    "city": "Ташкент",
+    "created": "2024-08-24T07:05:10.688Z",
+    "updated": "2024-08-24T07:05:10.688Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "first_name": "бобур",
+    "last_name": "пк",
+    "email": "timur3373586@gmail.com",
+    "address": "bomj street",
+    "postal_code": "1234523",
+    "city": "Ташкент",
+    "created": "2024-08-24T07:10:11.796Z",
+    "updated": "2024-08-24T07:10:11.796Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "first_name": "пирожочек",
+    "last_name": "xc",
+    "email": "timur3373586@gmail.com",
+    "address": "123",
+    "postal_code": "6222",
+    "city": "tr",
+    "created": "2024-08-24T07:31:54.884Z",
+    "updated": "2024-08-24T07:31:54.884Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "first_name": "sdf",
+    "last_name": "пк",
+    "email": "timur3373586@gmail.com",
+    "address": "bomj street",
+    "postal_code": "6222",
+    "city": "yt",
+    "created": "2024-08-26T17:58:19.306Z",
+    "updated": "2024-08-26T17:58:19.306Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "first_name": "sdf",
+    "last_name": "xc",
+    "email": "timur3373586@gmail.com",
+    "address": "bomj street",
+    "postal_code": "6222",
+    "city": "f",
+    "created": "2024-08-26T18:09:57.497Z",
+    "updated": "2024-08-26T18:09:57.497Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "first_name": "12",
+    "last_name": "12",
+    "email": "new@goal.com",
+    "address": "12",
+    "postal_code": "12",
+    "city": "12",
+    "created": "2024-08-28T19:35:16.858Z",
+    "updated": "2024-08-28T19:35:16.858Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "first_name": "бобур",
+    "last_name": "12",
+    "email": "timur3373586@gmail.com",
+    "address": "12",
+    "postal_code": "1234",
+    "city": "12",
+    "created": "2024-08-28T19:36:03.987Z",
+    "updated": "2024-08-28T19:36:03.987Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "first_name": "бобур",
+    "last_name": "12",
+    "email": "timur3373586@gmail.com",
+    "address": "12",
+    "postal_code": "1234",
+    "city": "12",
+    "created": "2024-08-28T19:40:54.732Z",
+    "updated": "2024-08-28T19:40:54.732Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "first_name": "Zero",
+    "last_name": "None",
+    "email": "new@goal.com",
+    "address": "bomj street",
+    "postal_code": "225078TEW",
+    "city": "Rome",
+    "created": "2024-08-28T19:47:42.139Z",
+    "updated": "2024-08-28T19:47:42.139Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "first_name": "ytr",
+    "last_name": "xc",
+    "email": "ff@mail.com",
+    "address": "мирзо улугбек 500",
+    "postal_code": "1234",
+    "city": "f",
+    "created": "2024-08-28T19:50:06.650Z",
+    "updated": "2024-08-28T19:50:06.650Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "first_name": "1",
+    "last_name": "1",
+    "email": "timur3373586@gmail.com",
+    "address": "1",
+    "postal_code": "1",
+    "city": "1",
+    "created": "2024-08-31T20:29:18.636Z",
+    "updated": "2024-08-31T20:29:18.636Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "first_name": "we",
+    "last_name": "ed",
+    "email": "timur3373586@gmail.com",
+    "address": "dd",
+    "postal_code": "dd",
+    "city": "dd",
+    "created": "2024-09-01T09:09:48.699Z",
+    "updated": "2024-09-01T09:11:00.708Z",
+    "paid": true,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "first_name": "цуцуц",
+    "last_name": "цу",
+    "email": "timur3373586@gmail.com",
+    "address": "цуц",
+    "postal_code": "цуцуц",
+    "city": "цуцу",
+    "created": "2024-09-01T17:11:16.758Z",
+    "updated": "2024-09-01T17:11:16.758Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "first_name": "йц",
+    "last_name": "йц",
+    "email": "timur3373586@gmail.com",
+    "address": "йц",
+    "postal_code": "йц",
+    "city": "йц",
+    "created": "2024-09-03T08:46:39.954Z",
+    "updated": "2024-09-03T08:46:39.954Z",
+    "paid": false,
+    "stripe_id": ""
+  }
+}
+]
