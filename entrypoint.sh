@@ -10,7 +10,7 @@ python manage.py collectstatic --noinput
 python manage.py loaddata mysite_data071024.json
 
 # Запуск Django сервера    
-# gunicorn Jinjer.wsgi:application --bind 0.0.0.0:8000
-python manage.py runserver 0.0.0.0:8000
+gunicorn Jinjer.wsgi:application --bind 0.0.0.0:8000
+# python manage.py runserver 0.0.0.0:8000
 
 
