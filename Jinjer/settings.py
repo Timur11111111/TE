@@ -182,3 +182,7 @@ STRIPE_API_VERSION = '2022-08-01'
 STRIPE_WEBHOOK_SECRET = 'whsec_3e1330fb3a52e345d27cff5bcaccb4b3a07ba87ceca2b3b045e15a4a5908444d'
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://power.aslan19p.uz',
+    'http://power.aslan19p.uz'
+]
